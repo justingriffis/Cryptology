@@ -31,7 +31,7 @@ MERGED from com.android.support:cardview-v7:23.0.0:22:5
 		ADDED from AndroidManifest.xml:29:13
 	android:name
 		ADDED from AndroidManifest.xml:25:13
-activity#com.example.android.fingerprintdialog.MainActivity
+activity#com.android.cryptology.MainActivity
 ADDED from AndroidManifest.xml:31:9
 	android:label
 		ADDED from AndroidManifest.xml:32:19
@@ -47,7 +47,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:35:17
 	android:name
 		ADDED from AndroidManifest.xml:35:27
-activity#com.example.android.fingerprintdialog.SettingsActivity
+activity#com.android.cryptology.SettingsActivity
 ADDED from AndroidManifest.xml:39:9
 	android:label
 		ADDED from AndroidManifest.xml:41:13

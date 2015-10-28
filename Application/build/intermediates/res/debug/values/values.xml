@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="cardview_dark_background">#FF202020</color>
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="hint_color">#42000000</color>
     <color name="success_color">#009688</color>
     <color name="warning_color">#f4511e</color>
     <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/template-dimens.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
     <eat-comment/>
     <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
     <dimen name="margin_huge">64dp</dimen>
@@ -26,20 +26,20 @@
     <dimen name="margin_small">8dp</dimen>
     <dimen name="margin_tiny">4dp</dimen>
     <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/base-strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/base-strings.xml -->
     <eat-comment/>
     <string name="app_name">Crypto</string>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
     <string name="fingerprint_description">Confirm fingerprint to continue</string>
     <string name="fingerprint_hint">Touch sensor</string>
     <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
     <string name="fingerprint_success">Fingerprint recognized</string>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/base-strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/base-strings.xml -->
     <eat-comment/>
     <string name="intro_message">
         <![CDATA[
@@ -51,7 +51,7 @@ before proceeding some actions such as purchasing an item.
         
         ]]>
     </string>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="item_description">Making Cloud Storage Safe.</string>
     <string name="item_title">Crypto</string>
@@ -66,10 +66,10 @@ before proceeding some actions such as purchasing an item.
     <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
     <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
     <string name="use_password">Use password</string>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/template-styles.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.Sample"/>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
@@ -85,7 +85,7 @@ before proceeding some actions such as purchasing an item.
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/FingerprintDialog/Application/src/main/res/values/template-styles.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="Theme.Base" parent="android:Theme.Light"/>
     <style name="Theme.Sample" parent="Theme.Base"/>
