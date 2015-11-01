@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jonas/workspace/NoNonsenseFilePicker/library/src/main/res/values/attr.xml -->
+    <eat-comment/>
+    <attr format="reference" name="nnf_toolbarTheme"/>
+    <!-- From: file:/home/jonas/workspace/NoNonsenseFilePicker/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="nnf_create_folder_error">Failed to create folder</string>
+    <string name="nnf_name">Name</string>
+    <string name="nnf_new_folder">New folder</string>
+    <string name="nnf_permission_external_write_denied">Permisson to access filesystem denied</string>
+    <string name="nnf_select_something_first">Please select something first</string>
+    <!-- From: file:/home/jonas/workspace/NoNonsenseFilePicker/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="NNF_BaseTheme" parent="Theme.AppCompat.DialogWhenLarge">
+        <!-- You can override this in your sub theme -->
+        <item name="nnf_toolbarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+
+        <!-- These are important. Handled by toolbar. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="NNF_BaseTheme.Light" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <!-- You can override this in your sub theme -->
+        <item name="nnf_toolbarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+
+        <!-- These are important. Handled by toolbar. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
