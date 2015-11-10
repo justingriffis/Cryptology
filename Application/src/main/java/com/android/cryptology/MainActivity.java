@@ -103,7 +103,9 @@ public class MainActivity extends Activity {
                         "Secure lock screen hasn't set up.\n"
                                 + "Go to 'Settings -> Security -> Fingerprint' to set up a fingerprint",
                         Toast.LENGTH_LONG).show();
-                purchaseButton.setEnabled(false);
+
+                //Set false for production
+                purchaseButton.setEnabled(true);
                 return;
             }
             if (!mFingerprintManager.hasEnrolledFingerprints()) {
@@ -112,6 +114,9 @@ public class MainActivity extends Activity {
                 Toast.makeText(this,
                         "Go to 'Settings -> Security -> Fingerprint' and register at least one fingerprint",
                         Toast.LENGTH_LONG).show();
+
+                //remove this line for production
+                purchaseButton.setEnabled(true);
                 return;
             }
             createKey();
