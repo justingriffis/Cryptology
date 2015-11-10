@@ -106,7 +106,7 @@ public class MainActivity extends Activity {
 
                 //Set false for production
                 purchaseButton.setEnabled(true);
-                return;
+               // return;
             }
             if (!mFingerprintManager.hasEnrolledFingerprints()) {
                 purchaseButton.setEnabled(false);
@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
 
                 //remove this line for production
                 purchaseButton.setEnabled(true);
-                return;
+              //  return;
             }
             createKey();
             purchaseButton.setEnabled(true);
