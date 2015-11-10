@@ -105,8 +105,8 @@ public class MainActivity extends Activity {
                         Toast.LENGTH_LONG).show();
 
                 //Set false for production
-               // purchaseButton.setEnabled(true);
-               // return;
+                purchaseButton.setEnabled(false);
+                return;
             }
             if (!mFingerprintManager.hasEnrolledFingerprints()) {
                 purchaseButton.setEnabled(false);
@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
 
                 //remove this line for production
                 //purchaseButton.setEnabled(true);
-                //return;
+                return;
             }
             createKey();
             purchaseButton.setEnabled(true);
