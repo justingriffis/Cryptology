@@ -98,4 +98,4 @@
                 android:text="@string/purchase_done"
                 android:visibility="gone"/>
     </LinearLayout>
-</ScrollView><!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/layout/activity_main.xml -->
+</ScrollView><!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/layout/activity_main.xml -->

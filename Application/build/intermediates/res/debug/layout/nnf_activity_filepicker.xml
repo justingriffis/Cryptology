@@ -26,4 +26,4 @@
         android:layout_height="match_parent"
         android:id="@+id/fragment"
         android:layout_gravity="center"/>
-</merge><!-- From: file:/home/jonas/workspace/NoNonsenseFilePicker/library/src/main/res/layout/nnf_activity_filepicker.xml --><!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/layout/nnf_activity_filepicker.xml -->
+</merge><!-- From: file:/home/jonas/workspace/NoNonsenseFilePicker/library/src/main/res/layout/nnf_activity_filepicker.xml --><!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/layout/nnf_activity_filepicker.xml -->

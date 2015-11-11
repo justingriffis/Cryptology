@@ -34,4 +34,9 @@
     <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
     <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
     <string name="use_fingerprint_to_authenticate_key" >use_fingerprint_to_authenticate_key</string>
+    <string name="title_activity_selection">Selection</string>
+    <string name="encryptButton">Encrypt</string>
+    <string name="decryptButton">Decrypt</string>
+    <string name="deleteButton">Delete</string>
+    <string name="title_activity_encryption">Encryption</string>
 </resources>
