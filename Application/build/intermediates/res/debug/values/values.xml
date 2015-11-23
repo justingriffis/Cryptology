@@ -188,6 +188,10 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
@@ -273,6 +277,9 @@
     <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
+    <string name="decryptButton">Decrypt</string>
+    <string name="deleteButton">Delete</string>
+    <string name="encryptButton">Encrypt</string>
     <string name="fingerprint_description">Confirm fingerprint to continue</string>
     <string name="fingerprint_hint">Touch sensor</string>
     <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
@@ -314,6 +321,8 @@ before proceeding some actions such as purchasing an item.
     <string name="status_bar_notification_info_overflow">999+</string>
     <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="title_activity_encryption">Encryption</string>
+    <string name="title_activity_selection">Selection</string>
     <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
     <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
     <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>

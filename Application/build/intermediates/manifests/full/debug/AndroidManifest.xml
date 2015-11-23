@@ -54,6 +54,14 @@
         <activity
             android:name="com.android.cryptology.SettingsActivity"
             android:label="@string/action_settings" />
+        <activity
+            android:name="com.android.cryptology.Selection"
+            android:label="@string/title_activity_selection" >
+        </activity>
+        <activity
+            android:name="com.android.cryptology.Encryption"
+            android:label="@string/title_activity_encryption" >
+        </activity>
     </application>
 
 </manifest>

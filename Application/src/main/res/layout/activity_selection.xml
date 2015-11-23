@@ -10,15 +10,15 @@
     tools:context="com.android.cryptology.Selection"
     android:orientation="vertical">
 
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sample Button "
+        android:text="Sample Button"
         android:id="@+id/button2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:width="500dp"
         android:height="100dp"
         android:paddingBottom="5dp" />
+
 </RelativeLayout>
