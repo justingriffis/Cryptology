@@ -58,6 +58,10 @@
             android:name=".Encryption"
             android:label="@string/title_activity_encryption" >
         </activity>
+        <activity
+            android:name=".CloudSelection"
+            android:label="@string/title_activity_cloud_selection" >
+        </activity>
     </application>
 
 </manifest>

@@ -19,7 +19,7 @@
     <string name="cancel">Cancel</string>
     <string name="use_password">Use password</string>
     <string name="sign_in">Sign in</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="password">Password</string>
     <string name="fingerprint_description">Confirm fingerprint to continue</string>
     <string name="fingerprint_hint">Touch sensor</string>
@@ -39,4 +39,6 @@
     <string name="decryptButton">Decrypt</string>
     <string name="deleteButton">Delete</string>
     <string name="title_activity_encryption">Encryption</string>
+    <string name="title_activity_cloud_selection">Cloud Selection</string>
+    <string name="AddCloudStorage">Add</string>
 </resources>
