@@ -244,5 +244,11 @@
     <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values-v21/base-template-styles.xml -->
     <eat-comment/>
     <style name="Theme.Base" parent="android:Theme.Material.Light">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:capitalize">characters</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">11pt</item>
+        <item name="android:textColor">#000</item>
     </style>
 </resources>

@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="@android:style/TextAppearance.Material.Headline"
-                    android:text="@string/item_title"/>
+                    android:text="@string/item_title" />
 
 
             <TextView
@@ -60,7 +60,7 @@
                     android:layout_marginTop="16dp"
                     android:textAppearance="@android:style/TextAppearance.Material.Body1"
                     android:textColor="?android:attr/textColorSecondary"
-                    android:text="@string/item_description"/>
+                    android:text="@string/item_description" />
 
         </LinearLayout>
         <Button style="@android:style/Widget.Material.Button.Colored"
@@ -71,8 +71,7 @@
                 android:layout_gravity="end"
                 android:textColor="?android:attr/textColorPrimaryInverse"
                 android:text="@string/purchase"
-                android:id="@+id/purchase_button"
-                android:layout_alignParentEnd="true"/>
+                android:id="@+id/purchase_button" />
 
         <TextView
                 android:id="@+id/confirmation_message"

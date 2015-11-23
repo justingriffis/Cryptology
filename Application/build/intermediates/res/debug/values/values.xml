@@ -251,6 +251,11 @@
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AddCloudStorage">Add</string>
+    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -310,7 +315,7 @@ before proceeding some actions such as purchasing an item.
     <string name="nnf_select_something_first">Please select something first</string>
     <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="password">Password</string>
     <string name="password_description">Enter your store password to continue</string>
     <string name="purchase">Secure Login</string>
@@ -321,6 +326,7 @@ before proceeding some actions such as purchasing an item.
     <string name="status_bar_notification_info_overflow">999+</string>
     <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="title_activity_cloud_selection">Cloud Selection</string>
     <string name="title_activity_encryption">Encryption</string>
     <string name="title_activity_selection">Selection</string>
     <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
