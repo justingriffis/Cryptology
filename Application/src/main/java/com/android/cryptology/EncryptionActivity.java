@@ -16,11 +16,18 @@ import java.io.File;
 import java.util.ArrayList;
 
 public class EncryptionActivity extends Activity {
+    int[] key = new int[32];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_encryption);
+
+       // int[] key = new int[32]; // THE KEY MUST BE INT[32]
+        key[0] = 1;
+        for(int i = 0;i < 32; i++) {
+            key[i] = 4 * i + key[i];
+        }
     }
 
     public void encrypt(View view) {
@@ -79,11 +86,13 @@ public class EncryptionActivity extends Activity {
         if (requestCode == 0 && resultCode == Activity.RESULT_OK) {
             Uri uri = data.getData();
             // Encrypt URI
+            Encryption.startEncrypt(uri.getPath(),key);
+
 
         }
         else if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
             Uri uri = data.getData();
-            //Decrypt URI
+            Encryption.startDecrypt(uri.getPath(),key);
 
         }
         else if (requestCode == 2 && resultCode == Activity.RESULT_OK) {
