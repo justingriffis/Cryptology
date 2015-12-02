@@ -59,6 +59,11 @@
     <eat-comment/>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="main_thumbnailBackgroundColor">#0043ae</color>
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -214,6 +219,15 @@
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="main_majorSpacer">16dp</dimen>
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <dimen name="main_marginSides">16dp</dimen>
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="main_minorSpacer">8dp</dimen>
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
     <eat-comment/>
     <dimen name="margin_huge">64dp</dimen>
@@ -281,10 +295,22 @@
     <string name="app_name">Crypto</string>
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="app_name2">SaverSample</string>
+    <string name="app_name3">PickerSample</string>
     <string name="cancel">Cancel</string>
+    <string name="debug_error_label">Debug Error:</string>
     <string name="decryptButton">Decrypt</string>
     <string name="deleteButton">Delete</string>
+    <string name="dropbox_username">Enter your OneDrive Username</string>
     <string name="encryptButton">Encrypt</string>
+    <string name="error_message_none">None</string>
+    <string name="error_type_label">Error Type:</string>
+    <string name="file_name_edit_text">MyFile.txt</string>
+    <string name="file_name_hint">Name of the file to upload to OneDrive</string>
+    <string name="file_name_label">File Name:</string>
+    <string name="file_size_edit_text">100</string>
+    <string name="file_size_hint">Size of the file to upload to OneDrive in kilobytes</string>
+    <string name="file_size_label">File Size (KB):</string>
     <string name="fingerprint_description">Confirm fingerprint to continue</string>
     <string name="fingerprint_hint">Touch sensor</string>
     <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
@@ -305,6 +331,26 @@ before proceeding some actions such as purchasing an item.
     <eat-comment/>
     <string name="item_description">Making Cloud Storage Safe.</string>
     <string name="item_title">Crypto</string>
+    <string name="main_radioDownloadLink">Download Link</string>
+    <string name="main_radioWebViewLink">Web View Link</string>
+    <string name="main_resultSaveAsButtonLabel">Save</string>
+    <string name="main_resultSaveAsLabel">Save Locally</string>
+    <string name="main_resultTableFileSize">File Size:</string>
+    <string name="main_resultTableLink">Link:</string>
+    <string name="main_resultTableLinkType">LinkType:</string>
+    <string name="main_resultTableName">Name:</string>
+    <string name="main_resultTableProperty">Property</string>
+    <string name="main_resultTableThumbnails">Thumbnails:</string>
+    <string name="main_resultTableValue">Value</string>
+    <string name="main_startPickerButton">Pick a File</string>
+    <string name="main_startSaverButton">Save a File</string>
+    <string name="main_thumbnailDefaultUrl">https://www.onedrive.com</string>
+    <string name="main_thumbnailDescription">A thumbnail</string>
+    <string name="main_thumbnailTitle1">Thumbnail: Small</string>
+    <string name="main_thumbnailTitle2">Thumbnail: Medium</string>
+    <string name="main_thumbnailTitle3">Thumbnail: Large</string>
+    <string name="main_welcomeText">OneDriveSDK Saver Sample</string>
+    <string name="main_welcomeTexts">OneDriveSDK Picker Sample</string>
     <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
     <eat-comment/>
@@ -316,10 +362,14 @@ before proceeding some actions such as purchasing an item.
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ok">OK</string>
+    <string name="overall_result_failure">Failure</string>
+    <string name="overall_result_label">Result:</string>
+    <string name="overall_result_success">Success</string>
     <string name="password">Password</string>
     <string name="password_description">Enter your store password to continue</string>
     <string name="purchase">Secure Login</string>
     <string name="purchase_done">Login Successful</string>
+    <string name="result_table_label">Saver Results</string>
     <string name="sign_in">Sign in</string>
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>

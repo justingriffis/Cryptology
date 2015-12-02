@@ -25,6 +25,8 @@
 
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name="com.android.cryptology.InjectedApplication"
@@ -65,6 +67,14 @@
         <activity
             android:name="com.android.cryptology.CloudSelection"
             android:label="@string/title_activity_cloud_selection" >
+        </activity>
+        <activity
+            android:name="com.android.cryptology.PickerMain"
+            android:label="Picker Main" >
+        </activity>
+        <activity
+            android:name="com.android.cryptology.SaverMain"
+            android:label="Saver Main" >
         </activity>
     </application>
 

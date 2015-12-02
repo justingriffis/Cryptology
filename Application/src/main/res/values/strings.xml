@@ -24,6 +24,7 @@
     <string name="fingerprint_description">Confirm fingerprint to continue</string>
     <string name="fingerprint_hint">Touch sensor</string>
     <string name="password_description">Enter your store password to continue</string>
+    <string name="dropbox_username">Enter your OneDrive Username</string>
     <string name="purchase">Secure Login</string>
     <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
     <string name="fingerprint_success">Fingerprint recognized</string>
@@ -41,4 +42,44 @@
     <string name="title_activity_encryption">Encryption</string>
     <string name="title_activity_cloud_selection">Cloud Selection</string>
     <string name="AddCloudStorage">Add</string>
+    <string name="app_name2">SaverSample</string>
+    <string name="main_welcomeText">OneDriveSDK Saver Sample</string>
+    <string name="main_startSaverButton">Save a File</string>
+    <string name="file_name_edit_text">MyFile.txt</string>
+    <string name="file_name_label">File Name:</string>
+    <string name="file_size_label">File Size (KB):</string>
+    <string name="file_size_edit_text">100</string>
+    <string name="file_name_hint">Name of the file to upload to OneDrive</string>
+    <string name="file_size_hint">Size of the file to upload to OneDrive in kilobytes</string>
+    <string name="error_message_none">None</string>
+    <string name="result_table_label">Saver Results</string>
+    <string name="overall_result_label">Result:</string>
+    <string name="overall_result_success">Success</string>
+    <string name="overall_result_failure">Failure</string>
+    <string name="error_type_label">Error Type:</string>
+    <string name="debug_error_label">Debug Error:</string>
+    <string name="app_name3">PickerSample</string>
+    <string name="main_welcomeTexts">OneDriveSDK Picker Sample</string>
+    <string name="main_radioWebViewLink">Web View Link</string>
+    <string name="main_radioDownloadLink">Download Link</string>
+    <string name="main_startPickerButton">Pick a File</string>
+    <string name="main_resultTableProperty">Property</string>
+    <string name="main_resultTableValue">Value</string>
+    <string name="main_resultTableName">Name:</string>
+    <string name="main_resultTableLinkType">LinkType:</string>
+    <string name="main_resultTableLink">Link:</string>
+    <string name="main_resultTableFileSize">File Size:</string>
+    <string name="main_resultTableThumbnails">Thumbnails:</string>
+    <string name="main_thumbnailTitle1">Thumbnail: Small</string>
+    <string name="main_thumbnailTitle2">Thumbnail: Medium</string>
+    <string name="main_thumbnailTitle3">Thumbnail: Large</string>
+    <string name="main_thumbnailDefaultUrl">https://www.onedrive.com</string>
+    <string name="main_thumbnailDescription">A thumbnail</string>
+    <string name="main_resultSaveAsLabel">Save Locally</string>
+    <string name="main_resultSaveAsButtonLabel">Save</string>
+    <color name="main_thumbnailBackgroundColor">#0043ae</color>
+
+
+    <dimen name="main_marginSides">16dp</dimen>
+
 </resources>

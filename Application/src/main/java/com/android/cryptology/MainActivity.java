@@ -197,24 +197,8 @@ public class MainActivity extends Activity {
             v.setVisibility(View.VISIBLE);
             v.setText(Base64.encodeToString(encrypted, 0 /* flags */));
         }
-        Intent i = new Intent(getBaseContext(), EncryptionActivity.class);
-        // i.putExtra("PersonID", personID);
+        Intent i = new Intent(getBaseContext(), CloudSelection.class);
         startActivity(i);
-
-        /*
-        Intent i = new Intent(this.getApplicationContext(), FilePickerActivity.class);
-        // Set these depending on your use case. These are the defaults.
-        i.putExtra(FilePickerActivity.EXTRA_ALLOW_MULTIPLE, false);
-        i.putExtra(FilePickerActivity.EXTRA_ALLOW_CREATE_DIR, false);
-        i.putExtra(FilePickerActivity.EXTRA_MODE, FilePickerActivity.MODE_FILE);
-
-        // Configure initial directory by specifying a String.
-        // You could specify a String like "/storage/emulated/0/", but that can
-        // dangerous. Always use Android's API calls to get paths to the SD-card or
-        // internal memory.
-        i.putExtra(FilePickerActivity.EXTRA_START_PATH, Environment.getExternalStorageDirectory().getPath());
-
-        startActivityForResult(i, 0);*/
 
     }
 
@@ -277,46 +261,6 @@ public class MainActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == 0 && resultCode == Activity.RESULT_OK) {
-;
-
-
-        /*
-            if (data.getBooleanExtra(FilePickerActivity.EXTRA_ALLOW_MULTIPLE, false)) {
-                // For JellyBean and above
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    ClipData clip = data.getClipData();
-
-                    if (clip != null) {
-                        for (int i = 0; i < clip.getItemCount(); i++) {
-                            Uri uri = clip.getItemAt(i).getUri();
-                            // Do something with the URI
-                        }
-                    }
-                    // For Ice Cream Sandwich
-                } else {
-                    ArrayList<String> paths = data.getStringArrayListExtra
-                            (FilePickerActivity.EXTRA_PATHS);
-
-                    if (paths != null) {
-                        for (String path: paths) {
-                            Uri uri = Uri.parse(path);
-                            // Do something with the URI
-                        }
-                    }
-                }
-
-            } else {
-                Uri uri = data.getData();
-                // Do something with the URI
-            }*/
-        }
     }
 
 }
