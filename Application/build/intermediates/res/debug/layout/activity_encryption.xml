@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    tools:context="com.android.cryptology.Selection"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decryptButton"
+        android:id="@+id/button3"
+        android:height="75dp"
+        android:width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/encryptButton"
+        android:layout_alignParentEnd="true"
+        android:background="#336600"
+        android:textColor="#fff"
+        android:onClick="decrypt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/encryptButton"
+        android:id="@+id/encryptButton"
+        android:height="75dp"
+        android:width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:background="#0000CC"
+        android:textColor="#fff"
+        android:onClick = "encrypt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteButton"
+        android:id="@+id/button"
+        android:height="75dp"
+        android:width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:clickable="true"
+        android:background="#b80000"
+        android:textColor="#fff"
+        android:onClick = "delete"/>
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/layout/activity_encryption.xml -->

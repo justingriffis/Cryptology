@@ -20,15 +20,12 @@ import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.KeyguardManager;
-import android.content.ClipData;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.hardware.fingerprint.FingerprintManager;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyPermanentlyInvalidatedException;
 import android.security.keystore.KeyProperties;
@@ -41,8 +38,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.nononsenseapps.filepicker.FilePickerActivity;
-
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
@@ -51,7 +46,6 @@ import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.UnrecoverableKeyException;
 import java.security.cert.CertificateException;
-import java.util.ArrayList;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -203,6 +197,11 @@ public class MainActivity extends Activity {
             v.setVisibility(View.VISIBLE);
             v.setText(Base64.encodeToString(encrypted, 0 /* flags */));
         }
+        Intent i = new Intent(getBaseContext(), EncryptionActivity.class);
+        // i.putExtra("PersonID", personID);
+        startActivity(i);
+
+        /*
         Intent i = new Intent(this.getApplicationContext(), FilePickerActivity.class);
         // Set these depending on your use case. These are the defaults.
         i.putExtra(FilePickerActivity.EXTRA_ALLOW_MULTIPLE, false);
@@ -215,7 +214,7 @@ public class MainActivity extends Activity {
         // internal memory.
         i.putExtra(FilePickerActivity.EXTRA_START_PATH, Environment.getExternalStorageDirectory().getPath());
 
-        startActivityForResult(i, 0);
+        startActivityForResult(i, 0);*/
 
     }
 
@@ -285,6 +284,10 @@ public class MainActivity extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 0 && resultCode == Activity.RESULT_OK) {
+;
+
+
+        /*
             if (data.getBooleanExtra(FilePickerActivity.EXTRA_ALLOW_MULTIPLE, false)) {
                 // For JellyBean and above
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
@@ -312,7 +315,7 @@ public class MainActivity extends Activity {
             } else {
                 Uri uri = data.getData();
                 // Do something with the URI
-            }
+            }*/
         }
     }
 

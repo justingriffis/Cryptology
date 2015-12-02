@@ -59,7 +59,7 @@
             android:label="@string/title_activity_selection" >
         </activity>
         <activity
-            android:name="com.android.cryptology.Encryption"
+            android:name="com.android.cryptology.EncryptionActivity"
             android:label="@string/title_activity_encryption" >
         </activity>
         <activity

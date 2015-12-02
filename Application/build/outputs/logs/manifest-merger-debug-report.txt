@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:17:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:17:11
 	package
 		ADDED from AndroidManifest.xml:18:5
 	android:versionName
@@ -11,6 +9,8 @@ ADDED from AndroidManifest.xml:17:1
 		ADDED from AndroidManifest.xml:19:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:17:11
 uses-permission#android.permission.USE_FINGERPRINT
 ADDED from AndroidManifest.xml:22:5
 	android:name
@@ -86,7 +86,7 @@ ADDED from AndroidManifest.xml:53:9
 		ADDED from AndroidManifest.xml:55:13
 	android:name
 		ADDED from AndroidManifest.xml:54:13
-activity#com.android.cryptology.Encryption
+activity#com.android.cryptology.EncryptionActivity
 ADDED from AndroidManifest.xml:57:9
 	android:label
 		ADDED from AndroidManifest.xml:59:13

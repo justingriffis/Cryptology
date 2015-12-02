@@ -21,7 +21,8 @@
         android:layout_alignTop="@+id/encryptButton"
         android:layout_alignParentEnd="true"
         android:background="#336600"
-        android:textColor="#fff" />
+        android:textColor="#fff"
+        android:onClick="decrypt"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -34,7 +35,8 @@
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
         android:background="#0000CC"
-        android:textColor="#fff" />
+        android:textColor="#fff"
+        android:onClick = "encrypt"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -49,7 +51,8 @@
         android:layout_marginBottom="35dp"
         android:clickable="true"
         android:background="#b80000"
-        android:textColor="#fff" />
+        android:textColor="#fff"
+        android:onClick = "delete"/>
 
 </RelativeLayout>
 

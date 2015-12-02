@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="nnf_toolbarTheme"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="string" name="title"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
@@ -36,13 +36,13 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="cardview_dark_background">#FF202020</color>
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -52,10 +52,10 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="hint_color">#42000000</color>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
@@ -85,16 +85,16 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="success_color">#009688</color>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="warning_color">#f4511e</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
@@ -126,7 +126,7 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -188,16 +188,16 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -208,28 +208,28 @@
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
     <eat-comment/>
     <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
     <eat-comment/>
     <dimen name="margin_huge">64dp</dimen>
     <dimen name="margin_large">32dp</dimen>
     <dimen name="margin_medium">16dp</dimen>
     <dimen name="margin_small">8dp</dimen>
     <dimen name="margin_tiny">4dp</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-dimens.xml -->
     <eat-comment/>
     <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -237,10 +237,10 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -251,10 +251,10 @@
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="AddCloudStorage">Add</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -273,13 +273,13 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/base-strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/base-strings.xml -->
     <eat-comment/>
     <string name="app_name">Crypto</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
     <string name="decryptButton">Decrypt</string>
@@ -289,7 +289,7 @@
     <string name="fingerprint_hint">Touch sensor</string>
     <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
     <string name="fingerprint_success">Fingerprint recognized</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/base-strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/base-strings.xml -->
     <eat-comment/>
     <string name="intro_message">
         <![CDATA[
@@ -301,19 +301,19 @@ before proceeding some actions such as purchasing an item.
         
         ]]>
     </string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="item_description">Making Cloud Storage Safe.</string>
     <string name="item_title">Crypto</string>
     <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
     <eat-comment/>
     <string name="nnf_create_folder_error">Failed to create folder</string>
     <string name="nnf_name">Name</string>
     <string name="nnf_new_folder">New folder</string>
     <string name="nnf_permission_external_write_denied">Permisson to access filesystem denied</string>
     <string name="nnf_select_something_first">Please select something first</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ok">OK</string>
     <string name="password">Password</string>
@@ -321,10 +321,10 @@ before proceeding some actions such as purchasing an item.
     <string name="purchase">Secure Login</string>
     <string name="purchase_done">Login Successful</string>
     <string name="sign_in">Sign in</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_cloud_selection">Cloud Selection</string>
     <string name="title_activity_encryption">Encryption</string>
@@ -333,16 +333,16 @@ before proceeding some actions such as purchasing an item.
     <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
     <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
     <string name="use_password">Use password</string>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.Sample"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1257,7 +1257,7 @@ before proceeding some actions such as purchasing an item.
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
@@ -1273,7 +1273,7 @@ before proceeding some actions such as purchasing an item.
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
     <eat-comment/>
     <style name="NNF_BaseTheme" parent="Theme.AppCompat.DialogWhenLarge">
         <!-- You can override this in your sub theme -->
@@ -1291,7 +1291,7 @@ before proceeding some actions such as purchasing an item.
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1522,21 +1522,21 @@ before proceeding some actions such as purchasing an item.
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="Theme.Base" parent="android:Theme.Light"/>
     <style name="Theme.Sample" parent="Theme.Base"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="Widget"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
@@ -1629,7 +1629,7 @@ before proceeding some actions such as purchasing an item.
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/Users/Ecks/StudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
+    <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="Widget.SampleMessage">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
