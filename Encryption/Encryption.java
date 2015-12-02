@@ -1,7 +1,13 @@
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.file.Paths;
-import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
+import java.io.FileInputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
 
 public class Encryption {
 
@@ -37,11 +43,15 @@ public class Encryption {
 	 * @param fileName is the full file path
 	 * @param key is an array of integers that HAS to be size 32
 	 */
+
 	
-	public static void startEncrypt(String fileName,int[] key){
-		Path filePath = Paths.get(fileName);
-		try {
-			byte[] Barray = java.nio.file.Files.readAllBytes(filePath);
+	public static void startEncrypt(String fileName,int[] key) {
+		File file = new File(fileName);
+		InputStream fin = null;
+		try{
+			fin = new BufferedInputStream(new FileInputStream(file));
+			byte Barray[] = new byte[(int)file.length()];
+			fin.read(Barray);
 			setKey(key);
 			int len = Barray.length;
 			int newLen = len + (8- len % 8);
@@ -51,18 +61,46 @@ public class Encryption {
 				System.arraycopy(Barray, 0, finBarray, 0, len);
 				System.arraycopy(holdArray, 0, finBarray, len, holdArray.length);
 				encrypt(finBarray,0,finBarray.length - 1);
-				java.nio.file.Files.write(filePath, finBarray, StandardOpenOption.WRITE);
+				File fileO = new File(fileName);
+				OutputStream out = null;
+				try{
+					out = new BufferedOutputStream(new FileOutputStream(fileO));
+					out.write(finBarray);
+				}
+				finally{
+					out.close();
+				}
 			}
 			else
 			{
 				encrypt(Barray,0,Barray.length - 1);
-				java.nio.file.Files.write(filePath, Barray, StandardOpenOption.WRITE);
+				File fileO = new File(fileName);
+				OutputStream out = null;
+				try{
+					out = new BufferedOutputStream(new FileOutputStream(fileO));
+					out.write(Barray);
+				}
+				finally{
+					out.close();
+				}
 			}
-		} 
-		catch (IOException e){
-			System.out.println(e);
+		}
+		catch (FileNotFoundException e) {
+			System.out.println("File not found" + e);
+		}
+        catch (IOException ioe) {
+            System.out.println("Exception while reading file " + ioe);			
+        }
+		finally{
+			try {
+				fin.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
+	
+
 	
 	/**
 	 * Will start the encryption process, is the only function needed to be called to encrypt a file
@@ -72,17 +110,34 @@ public class Encryption {
 	 * @param fileName is the full file path
 	 * @param key is an array of integers that HAS to be size 32
 	 */
-	
 	public static void startDecrypt(String fileName,int[] key){
-		Path filePath = Paths.get(fileName);
-		try {
-			byte[] Barray = java.nio.file.Files.readAllBytes(filePath);
+		File file = new File(fileName);
+		InputStream fin = null;
+		try{
+			fin = new BufferedInputStream(new FileInputStream(file));
+			byte Barray[] = new byte[(int)file.length()];
+			fin.read(Barray);
 			setKey(key);//needs to be int array of size 32
 			decrypt(Barray,0,Barray.length - 1);
-			java.nio.file.Files.write(filePath, Barray, StandardOpenOption.WRITE);
-		}  
+			File fileO = new File(fileName);
+			OutputStream out = null;
+			try{
+				out = new BufferedOutputStream(new FileOutputStream(fileO));
+				out.write(Barray);
+			}
+			finally{
+				out.close();
+			}
+		}
 		catch (IOException e){
 			System.out.println(e);
+		}
+		finally{
+			try {
+				fin.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	
