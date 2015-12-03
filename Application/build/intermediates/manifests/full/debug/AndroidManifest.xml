@@ -70,11 +70,11 @@
         </activity>
         <activity
             android:name="com.android.cryptology.PickerMain"
-            android:label="Picker Main" >
+            android:label="Download File" >
         </activity>
         <activity
             android:name="com.android.cryptology.SaverMain"
-            android:label="Saver Main" >
+            android:label="Upload File" >
         </activity>
     </application>
 

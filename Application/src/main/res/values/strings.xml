@@ -42,8 +42,8 @@
     <string name="title_activity_encryption">Encryption</string>
     <string name="title_activity_cloud_selection">Cloud Selection</string>
     <string name="AddCloudStorage">Add</string>
-    <string name="app_name2">SaverSample</string>
-    <string name="main_welcomeText">OneDriveSDK Saver Sample</string>
+    <string name="app_name2">Save File to OneDrive</string>
+    <string name="main_welcomeText">Save File to OneDrive</string>
     <string name="main_startSaverButton">Save a File</string>
     <string name="file_name_edit_text">MyFile.txt</string>
     <string name="file_name_label">File Name:</string>
@@ -58,8 +58,8 @@
     <string name="overall_result_failure">Failure</string>
     <string name="error_type_label">Error Type:</string>
     <string name="debug_error_label">Debug Error:</string>
-    <string name="app_name3">PickerSample</string>
-    <string name="main_welcomeTexts">OneDriveSDK Picker Sample</string>
+    <string name="app_name3">File Selector</string>
+    <string name="main_welcomeTexts">File Selector</string>
     <string name="main_radioWebViewLink">Web View Link</string>
     <string name="main_radioDownloadLink">Download Link</string>
     <string name="main_startPickerButton">Pick a File</string>

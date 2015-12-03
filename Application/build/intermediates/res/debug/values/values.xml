@@ -295,8 +295,8 @@
     <string name="app_name">Crypto</string>
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name2">SaverSample</string>
-    <string name="app_name3">PickerSample</string>
+    <string name="app_name2">Save File to OneDrive</string>
+    <string name="app_name3">File Selector</string>
     <string name="cancel">Cancel</string>
     <string name="debug_error_label">Debug Error:</string>
     <string name="decryptButton">Decrypt</string>
@@ -349,8 +349,8 @@ before proceeding some actions such as purchasing an item.
     <string name="main_thumbnailTitle1">Thumbnail: Small</string>
     <string name="main_thumbnailTitle2">Thumbnail: Medium</string>
     <string name="main_thumbnailTitle3">Thumbnail: Large</string>
-    <string name="main_welcomeText">OneDriveSDK Saver Sample</string>
-    <string name="main_welcomeTexts">OneDriveSDK Picker Sample</string>
+    <string name="main_welcomeText">Save File to OneDrive</string>
+    <string name="main_welcomeTexts">File Selector</string>
     <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
     <!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.4.2/res/values/values.xml -->
     <eat-comment/>

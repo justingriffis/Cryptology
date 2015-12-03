@@ -33,30 +33,8 @@
             android:layout_marginLeft="@dimen/main_marginSides"
             android:layout_marginRight="@dimen/main_marginSides" >
     
-            <RadioGroup android:id="@+id/radioGroup"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-                
-                <RadioButton
-                    android:id="@+id/radioDownloadLink"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="@string/main_radioDownloadLink" />
-                
-                <RadioButton
-                    android:id="@+id/radioWebViewLink"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="false"
-                    android:text="@string/main_radioWebViewLink" />
-            </RadioGroup>
-    
             <Space
                 android:id="@+id/radioButtonSpacer"
-                android:layout_toRightOf="@+id/radioGroup"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content" />
             
@@ -151,11 +129,7 @@
                     android:textIsSelectable="true" />
             </TableRow>
 
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-                <TextView android:text="@string/main_resultTableThumbnails"/>
-            </TableRow>
+
         </TableLayout>
 
         <Space
@@ -163,80 +137,7 @@
             android:layout_below="@+id/table1" 
             android:layout_width="wrap_content"
             android:layout_height="@dimen/main_majorSpacer" />
-        
-        <LinearLayout
-            android:id="@+id/thumbnails"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tableSpacer"
-            android:layout_marginLeft="@dimen/main_marginSides"
-            android:layout_marginRight="@dimen/main_marginSides"
-            android:orientation="vertical"
-            android:visibility="invisible" >
-    
-            <TextView
-                android:text="@string/main_thumbnailTitle1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:id="@+id/thumbnail_small_uri"
-                android:text="@string/main_thumbnailDefaultUrl"
-                android:textIsSelectable="true" 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <ImageView
-                android:id="@+id/thumbnail_small"
-                android:src="@drawable/ic_launcher"
-                android:background="@color/main_thumbnailBackgroundColor"
-                android:contentDescription="@string/main_thumbnailDescription"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/main_minorSpacer" />
-
-            <TextView
-                android:text="@string/main_thumbnailTitle2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:id="@+id/thumbnail_medium_uri"
-                android:text="@string/main_thumbnailDefaultUrl"
-                android:textIsSelectable="true" 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <ImageView
-                android:id="@+id/thumbnail_medium"
-                android:src="@drawable/ic_launcher"
-                android:background="@color/main_thumbnailBackgroundColor"
-                android:contentDescription="@string/main_thumbnailDescription"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"  />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/main_minorSpacer" />
-
-            <TextView
-                android:text="@string/main_thumbnailTitle3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:id="@+id/thumbnail_large_uri"
-                android:text="@string/main_thumbnailDefaultUrl"
-                android:textIsSelectable="true" 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <ImageView
-                android:id="@+id/thumbnail_large"
-                android:src="@drawable/ic_launcher"
-                android:background="@color/main_thumbnailBackgroundColor"
-                android:contentDescription="@string/main_thumbnailDescription"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
-
-        </LinearLayout>
         
     </RelativeLayout>
     

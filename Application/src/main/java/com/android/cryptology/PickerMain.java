@@ -61,13 +61,9 @@ public class PickerMain extends Activity {
 
             // Determine the link type that was selected
             LinkType linkType;
-            if (((RadioButton)findViewById(R.id.radioWebViewLink)).isChecked()) {
-                linkType = LinkType.WebViewLink;
-            } else if (((RadioButton)findViewById(R.id.radioDownloadLink)).isChecked()) {
-                linkType = LinkType.DownloadLink;
-            } else {
-                throw new RuntimeException("Invalid Radio Button Choosen.");
-            }
+
+            linkType = LinkType.DownloadLink;
+
 
             // Start the picker
             mPicker.startPicking((Activity)v.getContext(), linkType);
@@ -142,19 +138,7 @@ public class PickerMain extends Activity {
         ((TextView)findViewById(R.id.linkResult)).setText(result.getLink() + "");
         ((TextView)findViewById(R.id.fileSizeResult)).setText(result.getSize() + "");
 
-        final Uri thumbnailSmall = result.getThumbnailLinks().get("small");
-        createUpdateThumbnail((ImageView)findViewById(R.id.thumbnail_small), thumbnailSmall).execute((Void)null);
-        ((TextView)findViewById(R.id.thumbnail_small_uri)).setText(thumbnailSmall + "");
 
-        final Uri thumbnailMedium = result.getThumbnailLinks().get("medium");
-        createUpdateThumbnail((ImageView)findViewById(R.id.thumbnail_medium), thumbnailMedium).execute((Void)null);
-        ((TextView)findViewById(R.id.thumbnail_medium_uri)).setText(thumbnailMedium + "");
-
-        final Uri thumbnailLarge = result.getThumbnailLinks().get("large");
-        createUpdateThumbnail((ImageView)findViewById(R.id.thumbnail_large), thumbnailLarge).execute((Void)null);
-        ((TextView)findViewById(R.id.thumbnail_large_uri)).setText(thumbnailLarge + "");
-
-        findViewById(R.id.thumbnails).setVisibility(View.VISIBLE);
 
         if (result.getLinkType() == LinkType.DownloadLink) {
             findViewById(R.id.saveAsArea).setVisibility(View.VISIBLE);
@@ -170,14 +154,7 @@ public class PickerMain extends Activity {
         ((TextView)findViewById(R.id.linkTypeResult)).setText("");
         ((TextView)findViewById(R.id.linkResult)).setText("");
         ((TextView)findViewById(R.id.fileSizeResult)).setText("");
-        findViewById(R.id.thumbnails).setVisibility(View.INVISIBLE);
         findViewById(R.id.saveAsArea).setVisibility(View.INVISIBLE);
-        ((ImageView)findViewById(R.id.thumbnail_small)).setImageBitmap(null);
-        ((TextView)findViewById(R.id.thumbnail_small_uri)).setText("");
-        ((ImageView)findViewById(R.id.thumbnail_medium)).setImageBitmap(null);
-        ((TextView)findViewById(R.id.thumbnail_medium_uri)).setText("");
-        ((ImageView)findViewById(R.id.thumbnail_large)).setImageBitmap(null);
-        ((TextView)findViewById(R.id.thumbnail_large_uri)).setText("");
         mDownloadUrl = null;
     }
 

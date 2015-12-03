@@ -67,11 +67,11 @@
         </activity>
         <activity
             android:name=".PickerMain"
-            android:label="Picker Main" >
+            android:label="Download File" >
         </activity>
         <activity
             android:name=".SaverMain"
-            android:label="Saver Main" >
+            android:label="Upload File" >
         </activity>
     </application>
 
