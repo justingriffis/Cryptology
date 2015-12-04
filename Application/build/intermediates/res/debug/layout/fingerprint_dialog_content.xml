@@ -54,5 +54,5 @@
         android:layout_toEndOf="@+id/fingerprint_icon"
         android:gravity="center_vertical"
         android:text="@string/fingerprint_hint"
-        android:textColor="@color/hint_color" />
-</RelativeLayout><!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/layout/fingerprint_dialog_content.xml -->
+        android:textColor="?android:attr/textColorSecondary" />
+</RelativeLayout><!-- From: file:/C:/Users/User/Documents/GitHub/Cryptology/Application/src/main/res/layout/fingerprint_dialog_content.xml -->

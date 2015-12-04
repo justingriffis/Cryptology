@@ -20,4 +20,4 @@
         android:title="@string/use_fingerprint_to_authenticate_title"
         android:persistent="true"
         android:defaultValue="true" />
-</PreferenceScreen><!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/xml/preferences.xml -->
+</PreferenceScreen><!-- From: file:/C:/Users/User/Documents/GitHub/Cryptology/Application/src/main/res/xml/preferences.xml -->

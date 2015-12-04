@@ -16,7 +16,8 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:text="@string/main_welcomeText"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
     
         <Space
             android:id="@+id/welcomeTextPickerOptionsSpacer"
@@ -31,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="@dimen/main_marginSides"
-            android:layout_marginRight="@dimen/main_marginSides" >
+            android:layout_marginRight="@dimen/main_marginSides"
+            android:layout_marginBottom="25dp">
     
             <Space
                 android:id="@+id/radioButtonSpacer"
@@ -40,11 +42,13 @@
             
             <Button
                 android:id="@+id/startPickerButton"
-                android:layout_toRightOf="@+id/radioButtonSpacer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:text="@string/main_startPickerButton" />
+                android:text="@string/main_startPickerButton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:background="#FF6140" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -53,25 +57,21 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/pickerOptionsLayout"
             android:paddingRight="@dimen/main_marginSides"
-            android:paddingLeft="@dimen/main_marginSides">
+            android:paddingLeft="@dimen/main_marginSides"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="25dp">
 
             <Button
                 android:id="@+id/saveAsButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_alignTop="@+id/saveAsText"
-                android:text="@string/main_resultSaveAsButtonLabel"/>
-
-            <TextView
-                android:id="@+id/saveAsText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
+                android:text="Save locally"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="16dp"
-                android:text="@string/main_resultSaveAsLabel"
-                android:textAppearance="?android:attr/textAppearanceMedium"/>
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:background="#FF6140" />
 
         </RelativeLayout>
     

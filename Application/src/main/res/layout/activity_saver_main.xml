@@ -70,7 +70,10 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/table"
             android:layout_marginTop="@dimen/main_majorSpacer"
-            android:layout_marginBottom="@dimen/main_majorSpacer"/>
+            android:layout_marginBottom="@dimen/main_majorSpacer"
+            android:background="#FF6140"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
 
         <TableLayout
             android:id="@+id/result_table"

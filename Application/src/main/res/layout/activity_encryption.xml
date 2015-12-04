@@ -18,11 +18,13 @@
         android:height="75dp"
         android:width="150dp"
         android:layout_gravity="center_horizontal"
-        android:layout_alignTop="@+id/encryptButton"
-        android:layout_alignParentEnd="true"
-        android:background="#336600"
+        android:background="#FF6140"
         android:textColor="#fff"
-        android:onClick="decrypt"/>
+        android:onClick="decrypt"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -32,11 +34,14 @@
         android:height="75dp"
         android:width="150dp"
         android:layout_gravity="center_horizontal"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
-        android:background="#0000CC"
+        android:background="#FF6140"
         android:textColor="#fff"
-        android:onClick = "encrypt"/>
+        android:onClick = "encrypt"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -46,13 +51,25 @@
         android:height="75dp"
         android:width="150dp"
         android:layout_gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="35dp"
         android:clickable="true"
-        android:background="#b80000"
+        android:background="#FF6140"
         android:textColor="#fff"
-        android:onClick = "delete"/>
+        android:onClick = "delete"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/flatfolder"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
 
 </RelativeLayout>
 

@@ -16,8 +16,11 @@
         android:width="150dp"
         android:height="75dp"
         android:onClick = "upload"
-        android:layout_alignTop="@+id/button5"
-        android:layout_alignParentStart="true" />
+        android:layout_above="@+id/button5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#FF6140"
+        android:layout_marginBottom="25dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -27,19 +30,34 @@
         android:width="150dp"
         android:height="75dp"
         android:onClick = "download"
-        android:layout_below="@+id/button4"
-        android:layout_marginTop="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/button5" />
+        android:background="#FF6140" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Encrypt"
-        android:id="@+id/button5"
+        android:id="@+id/button3"
         android:width="150dp"
         android:height="75dp"
         android:onClick = "crypt"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#FF6140"
+        android:layout_marginBottom="25dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/flatcloud"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp" />
 </RelativeLayout>
-<!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/layout/activity_cloud_selection.xml -->
+<!-- From: file:/C:/Users/User/Documents/GitHub/Cryptology/Application/src/main/res/layout/activity_cloud_selection.xml -->

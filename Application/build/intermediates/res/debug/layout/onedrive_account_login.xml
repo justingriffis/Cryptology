@@ -60,4 +60,4 @@
         android:visibility="gone"
         android:text="@string/use_fingerprint_in_future" />
 
-</RelativeLayout><!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/layout/onedrive_account_login.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/User/Documents/GitHub/Cryptology/Application/src/main/res/layout/onedrive_account_login.xml -->

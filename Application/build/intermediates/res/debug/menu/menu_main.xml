@@ -19,4 +19,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/Justin/AndroidStudioProjects/Cryptology/Application/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/C:/Users/User/Documents/GitHub/Cryptology/Application/src/main/res/menu/menu_main.xml -->
